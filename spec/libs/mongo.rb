@@ -11,6 +11,13 @@ class MongoDB
     @equipos = client[:equipos]
   end
 
+<<<<<<< HEAD
+=======
+  def insert_users(docs)
+    @users.insert_many(docs)
+  end
+
+>>>>>>> 0170d7c... adicionando o pipeline script para os testes de api
   def drop_danger
     @client.database.drop
   end

@@ -3,7 +3,11 @@
 describe "POST /sessions" do
   context "login com sucesso" do
     before(:all) do
+<<<<<<< HEAD
       payload = { email: "chrso@yaho.com.br", password: "1234" }
+=======
+      payload = { email: "batman@yahoo.com.br", password: "pwd123" }
+>>>>>>> 0170d7c... adicionando o pipeline script para os testes de api
       @result = Sessions.new.login(payload)
     end
 

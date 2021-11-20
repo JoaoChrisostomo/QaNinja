@@ -1,10 +1,18 @@
 describe "POST /equipos" do
   before(:all) do
+<<<<<<< HEAD
   payload = { email: "batata@yahoo.com.br", password: "123" }
   result = Sessions.new.login(payload)
   @user_id = result.parsed_response["_id"]
   puts @user_id
 end
+=======
+    payload = { email: "batman@yahoo.com.br", password: "pwd123" }
+    result = Sessions.new.login(payload)
+    @user_id = result.parsed_response["_id"]
+    puts @user_id
+  end
+>>>>>>> 0170d7c... adicionando o pipeline script para os testes de api
 
   context "novo equipo" do
     before(:all) do
