@@ -1,10 +1,6 @@
 describe 'POST /equipos/{equipo_id}/bookings' do
   before(:all) do
-<<<<<<< HEAD
-    payload = { email: "piter@gmail.com", password: "123" }
-=======
     payload = { email: "piter@gmail.com", password: "pwd123" }
->>>>>>> 0170d7c... adicionando o pipeline script para os testes de api
     result = Sessions.new.login(payload)
     @piter_id = result.parsed_response["_id"]
   end
@@ -14,11 +10,7 @@ describe 'POST /equipos/{equipo_id}/bookings' do
     before(:all) do
 
       # dado que "Joe Perry" tem um "Fender Strato" para locação
-<<<<<<< HEAD
-      result = Sessions.new.login({email: "joe123@gmail.com", password: "123"})
-=======
       result = Sessions.new.login({email: "joe123@gmail.com", password: "pwd123"})
->>>>>>> 0170d7c... adicionando o pipeline script para os testes de api
       joe_id = result.parsed_response["_id"]
 
       fender = {

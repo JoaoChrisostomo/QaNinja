@@ -6,11 +6,7 @@ class Sessions < BaseApi
             "/sessions",
         body: payload.to_json,
         headers: {
-<<<<<<< HEAD
-          "Content-Type": "application/json",  
-=======
           "Content-Type": "application/json",
->>>>>>> 0170d7c... adicionando o pipeline script para os testes de api
         },
       )
   end

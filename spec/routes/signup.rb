@@ -6,7 +6,7 @@ class Signup < BaseApi
              "/signup",
              body: payload.to_json,
              headers: {
-              "Content-Type": "application/json",  
+              "Content-Type": "application/json",
              },
            )
   end

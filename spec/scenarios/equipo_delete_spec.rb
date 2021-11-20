@@ -2,28 +2,17 @@
 
 describe "DELETE /equipos/{equipo_id}" do
   before(:all) do
-<<<<<<< HEAD
-    payload = { email: "chrso@yahoo.com.br", password: "123" }
-=======
     payload = { email: "joe123@gmail.com", password: "pwd123" }
->>>>>>> 0170d7c... adicionando o pipeline script para os testes de api
     result = Sessions.new.login(payload)
     @user_id = result.parsed_response["_id"]
   end
 
   context "obter unico equipo" do
     before(:all) do
-<<<<<<< HEAD
-      @payload = { 
-         thumbnail: Helpers::get_thumb("pedais.jpg"), 
-         name: "Pedais do Tom Morello",
-         category: "Áudio e Tecnologia".force_encoding("ASCII-8BIT"), 
-=======
       @payload = {
          thumbnail: Helpers::get_thumb("pedais.jpg"),
          name: "Pedais do Tom Morello",
          category: "Áudio e Tecnologia".force_encoding("ASCII-8BIT"),
->>>>>>> 0170d7c... adicionando o pipeline script para os testes de api
          price: 199,
       }
 

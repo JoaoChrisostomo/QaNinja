@@ -1,7 +1,4 @@
 --require spec_helper
 --format documentation
-<<<<<<< HEAD
-=======
 --format html --out logs/report.html
 --format RspecJunitFormatter --out logs/report.xml
->>>>>>> 0170d7c... adicionando o pipeline script para os testes de api

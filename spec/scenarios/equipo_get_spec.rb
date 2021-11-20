@@ -7,17 +7,10 @@ describe "GET /equipos/{equipo_id}" do
 
   context "obter unico equipo" do
     before(:all) do
-<<<<<<< HEAD
-      @payload = { 
-         thumbnail: Helpers::get_thumb("sanfona.jpg"), 
-         name: "Sanfona",
-         category: "Outros", 
-=======
       @payload = {
          thumbnail: Helpers::get_thumb("sanfona.jpg"),
          name: "Sanfona",
          category: "Outros",
->>>>>>> 0170d7c... adicionando o pipeline script para os testes de api
          price: 499,
       }
 
@@ -54,11 +47,7 @@ end
 
 describe "GET /equipos" do
   before(:all) do
-<<<<<<< HEAD
-    payload = { email: "penelope@gmail.com", password: "pwd123" }
-=======
     payload = { email: "penelope@gmail.com", password: "123" }
->>>>>>> 0170d7c... adicionando o pipeline script para os testes de api
     result = Sessions.new.login(payload)
     @user_id = result.parsed_response["_id"]
   end
