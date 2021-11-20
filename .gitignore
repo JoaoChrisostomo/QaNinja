@@ -1,2 +1,8 @@
+<<<<<<< HEAD
 mongo.log
 logs
+=======
+logs/*.log
+logs/*.html
+logs/*.xml
+>>>>>>> fadbb97... End-Point de Usuário com métodos - GET,POST,PUT rodando perfeitamente

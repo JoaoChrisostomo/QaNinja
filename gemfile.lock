@@ -25,6 +25,11 @@ GEM
       diff-lcs (>= 1.2.0, < 2.0)
       rspec-support (~> 3.10.0)
     rspec-support (3.10.2)
+<<<<<<< HEAD
+=======
+    rspec_junit_formatter (0.4.1)
+      rspec-core (>= 2, < 4, != 2.12.0)
+>>>>>>> fadbb97... End-Point de Usuário com métodos - GET,POST,PUT rodando perfeitamente
 
 PLATFORMS
   x64-mingw32
@@ -33,6 +38,10 @@ DEPENDENCIES
   httparty (= 0.18.1)
   mongo (= 2.13.1)
   rspec (= 3.10)
+<<<<<<< HEAD
+=======
+  rspec_junit_formatter (= 0.4.1)
+>>>>>>> fadbb97... End-Point de Usuário com métodos - GET,POST,PUT rodando perfeitamente
 
 BUNDLED WITH
    2.2.28
