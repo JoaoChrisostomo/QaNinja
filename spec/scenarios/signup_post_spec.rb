@@ -38,7 +38,6 @@ describe "POST /signup" do
       expect(@result.parsed_response["error"]).to eql "Email already exists :("
     end
   end
-
   # name é obrigatório
   # email é obrigatório
   # password é obrigatório
