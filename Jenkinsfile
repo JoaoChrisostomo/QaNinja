@@ -9,12 +9,12 @@ pipeline {
     stages {
         stage('Prep') {
             steps {
-                sh 'bundle install'
+                sh 'cd api && bundle install'
             }
         }
         stage('Testing') {
             steps {
-               sh 'rspec'
+               sh 'cd api && rspec'
                junit 'api/logs/report.xml'
             }
         }
